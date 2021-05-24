@@ -5,6 +5,7 @@
 
 :root {
     --white: hsl(0, 0%, 100%);
+    --light-gray: hsl(230, 25%, 95%);
     
     --cyan: hsl(180, 66%, 49%);
     --dark-violet: hsl(257, 27%, 26%);
@@ -80,7 +81,7 @@ button {
 /* Intro */
 
 .intro {
-    padding-bottom: 100px;
+    /* padding-bottom: 100px; */
 }
 
 .intro__illustration {
@@ -128,6 +129,9 @@ button {
     background-repeat: no-repeat;
     background-position: top right;
     background-size: 240px;
+
+    position: relative;
+    top: 80px;
 }
 
 .form-box {
@@ -149,6 +153,29 @@ button {
     color: var(--white);
     width: 100%;
     font-weight: 700;
+}
+
+/* Statistics */
+
+.stats {
+    background-color: var(--light-gray);
+    text-align: center;
+    padding-top: 140px;
+}
+
+.stats__pos {
+    margin-bottom: 80px;
+}
+
+.stats__title {
+    font-size: 1.4em;
+}
+
+.stats__description {
+    padding: 0 20px;
+    font-size: 0.9em;
+    line-height: 1.6em;
+    color: var(--grayish-violet);
 }
 
 /************ Footer ************/
