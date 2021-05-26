@@ -178,6 +178,39 @@ button {
     color: var(--grayish-violet);
 }
 
+.stats__card {
+    margin: 0 20px 100px;
+    padding: 0 25px 35px;
+    background-color: var(--white);
+    border-radius: 5px;
+}
+
+.stats__icon {
+    position: relative;
+    bottom: 50px;
+    margin: 0 auto;
+    background-color: var(--dark-violet);
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 85px;
+}
+
+.stats__icon-svg {
+    vertical-align: middle;
+}
+
+.stats__feature-title {
+    margin-top: -20px;
+}
+
+.stats__feature-description {
+    font-size: 0.9em;
+    color: var(--grayish-violet);
+    line-height: 1.5em;
+}
+
 /************ Footer ************/
 
 .attribution {
