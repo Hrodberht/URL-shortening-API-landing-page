@@ -80,10 +80,6 @@ button {
 
 /* Intro */
 
-.intro {
-    /* padding-bottom: 100px; */
-}
-
 .intro__illustration {
     padding-bottom: 10px;
 }
@@ -107,7 +103,8 @@ button {
     color: var(--grayish-violet);
 }
 
-.intro__link {
+.intro__link,
+.boost__link {
     background-color: var(--cyan);
     color: var(--white);
     font-weight: 700;
@@ -160,11 +157,11 @@ button {
 .stats {
     background-color: var(--light-gray);
     text-align: center;
-    padding-top: 140px;
+    padding: 140px 0 1px;
 }
 
 .stats__pos {
-    margin-bottom: 80px;
+    padding-bottom: 80px;
 }
 
 .stats__title {
@@ -209,6 +206,23 @@ button {
     font-size: 0.9em;
     color: var(--grayish-violet);
     line-height: 1.5em;
+}
+
+/* Boost */
+
+.boost {
+    background: url('../images/bg-boost-mobile.svg');
+    background-repeat: no-repeat;
+    background-color: var(--dark-violet);
+    color: var(--white);
+    padding: 100px 0;
+    text-align: center;
+}
+
+.boost__description {
+    font-size: 1.5em;
+    font-weight: 700;
+    margin: 0 0 40px;
 }
 
 /************ Footer ************/
