@@ -176,10 +176,19 @@ button {
 }
 
 .stats__card {
-    margin: 0 20px 100px;
+    margin: 0 20px 50px;
     padding: 0 25px 35px;
     background-color: var(--white);
     border-radius: 5px;
+}
+
+.vl {
+    display: inline-block;
+    height: 50px;
+    border-left: 8px solid var(--cyan);
+    margin: 0 auto -5px;
+    position: relative;
+    bottom: 50px;
 }
 
 .stats__icon {
