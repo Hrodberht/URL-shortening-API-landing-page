@@ -46,6 +46,11 @@ button {
 	outline: inherit;
 }
 
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
 /************ Utilities ************/
 
 .hidden {
@@ -74,6 +79,37 @@ button {
 
 .hamburger-svg {
     width: 40px;
+}
+
+/* Navigation Bar */
+
+.nav {
+    margin: 15px 8px 0;
+    background-color: var(--dark-violet);
+    color: var(--white);
+    font-weight: 700;
+    border-radius: 8px;
+    text-align: center;
+    line-height: 2.8em;
+    padding: 10px;
+}
+
+.nav__link,
+.users__btn {
+    cursor: pointer;
+}
+
+.navbar-divider {
+    border-top: 0;
+    opacity: 40%;
+    max-width: 90%;
+}
+
+.users__sign-up {
+    max-width: 90%;
+    background-color: var(--cyan);
+    margin: 10px auto 30px;
+    border-radius: 50px;
 }
 
 /************ Main ************/
