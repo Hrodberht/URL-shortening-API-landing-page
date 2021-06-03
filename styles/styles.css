@@ -437,4 +437,64 @@ ul {
     .short-url__btn {
         width: 17%;
     }
+
+    /* Statistics */
+
+    .stats {
+        padding-top: 200px;
+        padding-bottom: 200px;
+    }
+
+    .stats__pos {
+        margin-bottom: 50px;
+    }
+
+    .stats__title {
+        font-size: 2.1em;
+        margin-bottom: 20px;
+    }
+
+    .stats__description {
+        font-size: 1em;
+        max-width: 550px;
+        margin: 0 auto;
+    }
+
+    .vl {
+        display: none;
+    }
+
+    .hl {
+        display: inline-block;
+        width: 80px;
+        border-bottom: 9px solid var(--cyan);
+        position: relative;
+        bottom: 100px;
+    }
+
+    .stats__cards {
+        display: flex;
+        text-align: left;
+        max-width: 1250px;
+        margin: 0 auto;
+    }
+
+    .stats__card {
+        margin: 0;
+        padding: 0 35px 35px;
+    }
+
+    .stats__card-records {
+        position: relative;
+        top: 50px;
+    }
+
+    .stats__card-customize {
+        position: relative;
+        top: 100px;
+    }
+
+    .stats__icon {
+        margin: 0;
+    }
 }
