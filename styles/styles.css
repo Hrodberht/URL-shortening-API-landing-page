@@ -405,4 +405,36 @@ ul {
         left: 70px;
         padding: 0;
     }
+
+    /* Shorten URL */
+
+    .short-url__box {
+        max-width: 1250px;
+        padding: 50px;
+        background-image: url('../images/bg-shorten-desktop.svg');
+        background-size: 100%;
+    }
+
+    .short-url__form {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 30px;
+    }
+
+    .form-box {
+        height: 65px;
+    }
+
+    .short-url__input {
+        width: 83%;
+        flex-grow: 1;
+        margin-bottom: 0;
+        font-size: 1.1em;
+        padding: 25px;
+    }
+
+    .short-url__btn {
+        width: 17%;
+    }
 }
