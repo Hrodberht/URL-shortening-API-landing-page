@@ -497,4 +497,46 @@ ul {
     .stats__icon {
         margin: 0;
     }
+
+    /* Boost */
+
+    .boost {
+        padding: 60px 0 70px;
+        background-image: url('../images/bg-boost-desktop.svg');
+        background-size: 100%;
+    }
+
+    .boost__description {
+        font-size: 2em;
+    }
+
+    /************ Footer ************/
+
+    .footer__container {
+        display: flex;
+        justify-content: space-between;
+        max-width: 1250px;
+        margin: 0 auto;
+        text-align: left;
+    }
+
+    .footer__logo {
+        flex-basis: 300px;
+    }
+
+    .logo-svg--white {
+        display: block;
+    }
+
+    .footer__list {
+        max-width: 150px;
+    }
+
+    .social {
+        flex-basis: 500px;
+    }
+
+    .social {
+        margin: 0;
+    }
 }
