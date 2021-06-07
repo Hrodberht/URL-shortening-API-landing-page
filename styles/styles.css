@@ -103,7 +103,7 @@ ul {
 
 .nav__link:hover,
 .users__login:hover {
-    color: var(--very-dark-violet);
+    color: var(--cyan);
 }
 
 .users__sign-up:hover {
@@ -390,6 +390,11 @@ ul {
         display: flex;
         width: 300px;
         justify-content: space-between;
+    }
+
+    .nav__link:hover,
+    .users__login:hover {
+        color: var(--very-dark-violet);
     }
 
     .users {
