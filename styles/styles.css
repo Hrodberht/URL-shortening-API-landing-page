@@ -16,6 +16,8 @@
     --grayish-violet: hsl(258, 7%, 63%);
     --very-dark-blue: hsl(255, 11%, 22%);
     --very-dark-violet: hsl(260, 8%, 14%);
+
+    --light-cyan: hsl(180, 61%, 66%);
 }
 
 html {
@@ -99,6 +101,15 @@ ul {
     cursor: pointer;
 }
 
+.nav__link:hover,
+.users__login:hover {
+    color: var(--very-dark-violet);
+}
+
+.users__sign-up:hover {
+    background-color: var(--light-cyan);
+}
+
 .navbar-divider {
     border-top: 0;
     opacity: 40%;
@@ -150,6 +161,10 @@ ul {
     cursor: pointer;
 }
 
+.intro__link:hover {
+    background-color: var(--light-cyan);
+}
+
 /* Shorten URL */
 
 .short-url__box {
@@ -186,6 +201,10 @@ ul {
     color: var(--white);
     width: 100%;
     font-weight: 700;
+}
+
+.short-url__btn:hover {
+    background-color: var(--light-cyan);
 }
 
 /* Statistics */
@@ -270,6 +289,10 @@ ul {
     margin: 0 0 40px;
 }
 
+.boost__link:hover {
+    background-color: var(--light-cyan);
+}
+
 /************ Footer ************/
 
 .footer {
@@ -304,12 +327,25 @@ ul {
     cursor: pointer;
 }
 
+.footer__ul-item:hover {
+    color: var(--cyan);
+}
+
 .social {
     display: flex;
     justify-content: space-between;
     margin: 0 auto 30px;
     padding: 20px 0;
     max-width: 170px;
+}
+
+.social__link {
+    fill: var(--white);
+    height: 24px;
+}
+
+.social__link:hover {
+    fill: var(--cyan);
 }
 
 .attribution {
