@@ -1,5 +1,7 @@
 # Frontend Mentor - Shortly URL shortening API Challenge
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5508a6a1-96ad-4ad1-bd50-8969675e1daa/deploy-status)](https://app.netlify.com/sites/url-shortening-app-mentor/deploys)
+
 ![Design preview for the Shortly URL shortening API coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
